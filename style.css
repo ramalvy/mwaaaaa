@@ -1,0 +1,93 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background: linear-gradient(to right, #ebe9e4, #ba90c6);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .container {
+    padding: 40px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #fdfdfd;
+    text-shadow: 2px 2px #e8a0bf;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .heart-animation {
+    font-size: 2rem;
+    animation: pulse 1s infinite alternate;
+  }
+  
+  @keyframes pulse {
+    from { transform: scale(1); }
+    to { transform: scale(1.2); }
+  }
+  
+  .gallery {
+    margin-top: 40px;
+  }
+  
+  .photo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .photo-grid img {
+    width: 200px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .photo-grid img:hover {
+    transform: scale(1.1) rotate(-2deg);
+  }
+  
+  .quotes {
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 12px;
+  }
+  
+  button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: #f565ad;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #eca0c9;
+  }
+  
+  .hidden {
+    display: none;
+    margin-top: 15px;
+    font-style: italic;
+    color: #5d1049;
+  }
+  
+  .story {
+    margin-top: 40px;
+    background:#f565ad;
+    padding: 20px;
+    border-radius: 12px;
+  }

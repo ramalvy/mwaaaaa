@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ahahaha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>haii sayang</h1>
+    <p class="subtitle">selamat malam</p>
+    <div class="heart-animation"></div>
+
+    <section class="gallery">
+      <h2></h2>
+      <div class="photo-grid">
+        <img src="a1.jpg" alt="tata">
+      </div>
+    </section>
+
+    <section class="story">
+        <h2></h2>
+        <p>
+          tadi katany mau beli makanan kan, gimana udah dimam belum? dimam dulu ya, abisin biar perutny
+          mendingan, terus lanjut bobo lagi ya sayang. kadang aku binggung sayang klo kamu lagi
+          halangan terus sakit perutny kambuh, aku juga binggung sayang harus gimana yaa, takutny
+          aku gini salah gitu salah terus bikin kamu gmut, tapii klo mau marah marah ke aku aja mauu
+          clingy juga ke aku aja, ngga boleh ke orang lain, udah ya sayang cupp cupp cupp klo ada apa
+          apa kabarin aku, terus klo sayang nanti ngga bisa bobo langsung call aku ya sayang anything for you hahaha
+        </p>
+      </section>
+    </div>
+
+    <button onclick="showSecret()">wlee</button>
+    <p id="secret" class="hidden">i love you more n more n moreee</p>
+  </div>
+
+  <audio autoplay loop>
+    <source src="aa.mp3" type=" audio/mpeg" />
+  </audio>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const audio = document.querySelector("audio");
+      const userInteraction = () => {
+        audio.play();
+        document.removeEventListener("click", userInteraction);
+      };
+      document.addEventListener("click", userInteraction);
+    });
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
